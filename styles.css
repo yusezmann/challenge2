@@ -172,19 +172,22 @@
 }
 
 .text1{
-    margin-left: 250px;
-    width: 400px;
+    margin-left: 300px;
+    text-align: justify;
+    width: 350px;
 }
 .text1 h1{
-    text-align: left;
-    margin-left: 25px;
+    text-align: justify;
+    margin-left: 2px;
     font-size: 18px;
 }
 .text2{
-    width: 400px;
+    width: 350px;
+    text-align: justify;
+    margin-left: 45px;
 }
 .text2 h1{
-    text-align: left;
-    margin-left: 25px;
+    text-align: justify;
+    margin-left: 2px;
     font-size: 18px;
 }
