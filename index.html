@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Challenge2</title>
+</head>
+<body>
+    <section id="welcome-section">
+        <h1>Simple Pricing!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eum aut doloremque excepturi ipsum at libero totam ad nam consequuntur.</p>
+        
+        <div class="alert" id="alert">
+            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+            Purchase Successed!
+        </div>
+    </section>
+
+    <section>
+        <div class="col ">
+            <div class="card1 row">
+                <div class="card">
+                    <div class="card-header">Basic</div>
+                    <div class="container">
+                        <div class="main">
+                            <h2>$</h2>
+                            <h1>4</h1>
+                            <p>/month</p>
+                        </div>
+                        <div class="main-description">
+                            <li>10 Projects</li>
+                            <li>10 Pages</li>
+                            <li>100 Mb Disk Space</li>
+                        </div>
+                        <button class="btn info" onclick="openAlert()">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card2 row">
+                <div class="card">
+                    <div class="card-header">Standard <span>save 15%</span></div>
+                    <div class="container">
+                        <div class="main">
+                            <h2>$</h2>
+                            <h1>8</h1>
+                            <p>/month</p>
+                        </div>
+                        <div class="main-description">
+                            <li>20 Projects</li>
+                            <li>20 Pages</li>
+                            <li>200 Mb Disk Space</li>
+                        </div>
+                        <button class="btn info" onclick="openAlert()">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card3 row">
+                <div class="card">
+                    <div class="card-header">Advanced</div>
+                    <div class="container">
+                        <div class="main">
+                            <h2>$</h2>
+                            <h1>12</h1>
+                            <p>/month</p>
+                        </div>
+                        <div class="main-description">
+                            <li>40 Projects</li>
+                            <li>40 Pages</li>
+                            <li>500 Mb Disk Space</li>
+                        </div>
+                        <button class="btn info" onclick="openAlert()">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ask">
+        <div class="ask-header">
+            <h1>Frequently Ask Questions</h1>
+        </div>
+        <div class="col">
+            <div class="text1 row">
+                <h1>How does free trial work?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque consequuntur recusandae dolorem cum velit quaerat ad iusto enim possimus.</p>
+            </div>
+            <div class="text2 row">
+                <h1>Can I cancel anytime?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque doloremque consequuntur recusandae dolorem cum velit quaerat ad iusto enim possimus.</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function openAlert() {
+          document.getElementById("alert").style.display = "block";
+        }
+    </script>
+</body>
+</html>
